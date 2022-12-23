@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menus{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+#menus > ul > li{
+    color: red;
+    float: left;
+    list-style-type: none;
+} 
+#menus > ul > li > a {
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    background-color: aqua;
+    color: red;
+    border-bottom: 2px solid black;
+    transition: all .9s ease;
+}
+#menus > ul > li:hover > a{
+    background-color: black;
+    border-bottom: 2px solid blue;
+} 
